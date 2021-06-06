@@ -2,6 +2,11 @@ package org.example;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+/*
+ *  UCF COP3330 Summer 2021 Exercise 10 Solution
+ *  Copyright 2021 Drake Scott
+ */
+
 public class taxes {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
@@ -12,7 +17,7 @@ public class taxes {
 
         double[] quant = new double[3];
 
-        double preTaxItems[];
+        double[] preTaxItems;
         preTaxItems = new double[3];
 
         int i = 0;
