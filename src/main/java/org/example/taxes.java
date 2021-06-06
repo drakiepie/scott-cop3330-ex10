@@ -15,7 +15,8 @@ public class taxes {
         double[] price;
         price = new double[3];
 
-        double[] quant = new double[3];
+        double[] quant;
+        quant = new double[3];
 
         double[] preTaxItems;
         preTaxItems = new double[3];
